@@ -1,11 +1,11 @@
 import React, { useRef, useState } from "react";
 import "./CardProduct.css";
 
-const TOKEN = "7466709140:AAG1smQg6EgZ4fjR8AvguAyBTipBjeiuG3M"
-const USER_ID = "6402180079"
-const CHAT_IDD = "-1002186916994"
+const TOKEN = "7385822589:AAHeo3T9DrV3NvlYYkcprCOD-68-QkhjPy4"
+const USER_ID = "7385822589"
+const CHAT_IDD = "-1002187496106"
 
-//https://api.telegram.org/bot7466709140:AAG1smQg6EgZ4fjR8AvguAyBTipBjeiuG3M/getUpdates
+//https://api.telegram.org/bot7385822589:AAHeo3T9DrV3NvlYYkcprCOD-68-QkhjPy4/getUpdates
 //https://api.telegram.org/bot[your_token]/sendMessage?chat_id=[your chat_id]&parse_mode=html
 
 function CardForm({ data }) {
@@ -26,7 +26,7 @@ function CardForm({ data }) {
     data.forEach((item) => {
       textt += ` Narxi : ${item.price}%0A%0A`;
       textt += `Soni : ${item.quantity}%0A%0A`;
-      textt +=`Maxsulot nomi: ${item.title}%0A%0A`;
+      textt += `Maxsulot nomi: ${item.title}%0A%0A`;
     })
 
 
